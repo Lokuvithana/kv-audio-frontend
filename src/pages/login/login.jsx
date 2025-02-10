@@ -23,6 +23,9 @@ export default function Login() {
             console.log(res);
             toast.success("Login Sucess");
             const user = res.data.user;
+
+            //setItem is a keywword to set the value
+            localStorage.setItem("token" , res.data.token)
             
             if(user.role == "admin"){
 
