@@ -18,6 +18,8 @@ export default function UpdateItems() {
 
   const navigate= useNavigate();
 
+  const backendurl = import.meta.env.VITE_BACKEND_URL;
+
   async function handleUpadateItems(){
 
     const token = localStorage.getItem("token")
@@ -26,7 +28,7 @@ export default function UpdateItems() {
       
       try {
 
-        const result = await axios.put("http://localhost:3000/api/products/" + productKey,
+        const result = await axios.put(backendurl +"/api/products/" + productKey,
           {
             name : productName,
             price : productPrice,

@@ -14,8 +14,10 @@ export default function Login() {
         event.preventDefault()
         console.log(email , password)
 
+        const backendurl = import.meta.env.VITE_BACKEND_URL;
+
         //this is use to make request to the backend
-        axios.post("http://localhost:3000/api/users/login" ,{
+        axios.post(backendurl + "/api/users/login" ,{
             email : email,
             password : password
         }).then((res)=>{

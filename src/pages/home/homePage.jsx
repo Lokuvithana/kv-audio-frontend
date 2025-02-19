@@ -12,7 +12,7 @@ export default function HomePage() {
 
         <Header/>
 
-        <div className='w-full h-[calc(100vh-100px)] bg-red-500'>
+        <div className='w-full h-[calc(100vh-100px)] '>
             
             <Routes path ="/*">
             
