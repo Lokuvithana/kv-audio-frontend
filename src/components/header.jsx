@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Header() {
   return (
 
-        <header className='w-full h-[100px] shadow-xl bg-white flex justify-center items-center relative'>
+        <header className='w-full h-[100px] shadow-xl bg-accent flex justify-center items-center relative text-white'>
 
             <img src="/logo.png" alt="logo" className='w-[100px] h-[100px]  object-cover absolute left-1'/>
 

@@ -1,0 +1,5 @@
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZrYm95cWp1ZnhjcmpodW5uem5lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDAxMjYzNDUsImV4cCI6MjA1NTcwMjM0NX0.BMdVdTNM9mKKdkWC5hIyqfAXvZ7GHQyROjqpJVhNW7M
+
+apita libabry ekak oni supebase run karanna ekata npm i @supabase/supabase-js
+
+https://fkboyqjufxcrjhunnzne.supabase.co
